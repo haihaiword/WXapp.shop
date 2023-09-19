@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@dcloudio/uni-ui':
+    specifier: ^1.4.28
+    version: 1.4.28
+
+packages:
+
+  /@dcloudio/uni-ui@1.4.28:
+    resolution: {integrity: sha512-e/lSbvR79KH9+d3D4ueNbvD6szigjO/5IyjBNmiTqaj0PTS324fBV3L6f3s1qpkYonM4rdOl000hVOcAg6Gh/A==}
+    dev: false

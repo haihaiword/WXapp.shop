@@ -28,13 +28,19 @@ const getHomeGoodsGuessLikeData = async () => {
     finish.value = true
   }
 }
-
+//重置数据
+const resetData = () => {
+  pageParams.page = 1
+  guessList.value = []
+  finish.value = false
+}
 onMounted(() => {
   getHomeGoodsGuessLikeData()
 })
 //暴露方法
 defineExpose({
   getMore: getHomeGoodsGuessLikeData,
+  resetData,
 })
 </script>
 
