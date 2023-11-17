@@ -20,6 +20,7 @@ const categoryList = ref<CategoryTopItem[]>([])
 const getCategoryTopData = async () => {
   const res = await getCategoryTopAPI()
   categoryList.value = res.result
+  console.log(res.result)
 }
 //骨架屏
 const ifFinish = ref(false)

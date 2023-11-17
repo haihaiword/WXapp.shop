@@ -59,7 +59,7 @@ const { guessRef, onScrolltolower } = useDuessList()
     <view class="orders">
       <view class="title">
         我的订单
-        <navigator class="navigator" url="/pagesOrder/list/list?type=0" hover-class="none">
+        <navigator class="navigator" url="/pagesOrder/list?type=0" hover-class="none">
           查看全部订单<text class="icon-right"></text>
         </navigator>
       </view>
@@ -69,7 +69,7 @@ const { guessRef, onScrolltolower } = useDuessList()
           v-for="item in orderTypes"
           :key="item.type"
           :class="item.icon"
-          :url="`/pagesOrder/list/list?type=${item.type}`"
+          :url="`/pagesOrder/list?type=${item.type}`"
           class="navigator"
           hover-class="none"
         >

@@ -7,7 +7,8 @@ const { safeAreaInsets } = uni.getSystemInfoSync()
   <view class="navbar" :style="{ paddingTop: safeAreaInsets?.top + 'px' }">
     <!-- logo文字 -->
     <view class="logo">
-      <image class="logo-image" src="@/static/images/logo.png"></image>
+      <!-- <image class="logo-image" src="@/static/images/logo.png"></image> -->
+      <text style="color: #fff">爱购物</text>
       <text class="logo-text">新鲜 · 亲民 · 快捷</text>
     </view>
     <!-- 搜索条 -->
